@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Empresa</title>
+  <title>MaXCOTEANDO</title>
 
   <style>
     body { font-family: Arial; background: #f4f4f4; margin: 0; }
@@ -28,7 +28,7 @@
 
 <section>
   <h2>Descripción</h2>
-  <p>Somos una empresa dedicada a ofrecer productos de calidad.</p>
+  <p>Somos una empresa dedicada a ofrecer productos de calidad Y UN CUIDADO ESPECIALIZADO A TUS MASCOTAS.</p>
 </section>
 
 <section>
