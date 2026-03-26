@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Empresa</title>
+
+  <style>
+    body { font-family: Arial; background: #f4f4f4; margin: 0; }
+    header { background: #333; color: white; text-align: center; padding: 15px; }
+    section { background: white; margin: 10px; padding: 20px; border-radius: 10px; }
+    button { padding: 10px; background: blue; color: white; border: none; }
+    img { width: 150px; margin: 10px; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Mi Empresa</h1>
+</header>
+
+<section>
+  <h2>Login</h2>
+  <input type="text" id="user" placeholder="Usuario">
+  <input type="password" id="pass" placeholder="Contraseña">
+  <button onclick="login()">Ingresar</button>
+</section>
+
+<section>
+  <h2>Descripción</h2>
+  <p>Somos una empresa dedicada a ofrecer productos de calidad.</p>
+</section>
+
+<section>
+  <h2>Productos</h2>
+  <img src="https://via.placeholder.com/150">
+  <img src="https://via.placeholder.com/150">
+</section>
+
+<section>
+  <h2>Servicios</h2>
+  <ul>
+    <li>Venta</li>
+    <li>Soporte</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Ubicación</h2>
+  <iframe src="https://www.google.com/maps?q=Tegucigalpa&output=embed" width="100%" height="300"></iframe>
+</section>
+
+<script>
+function login() {
+  let u = document.getElementById("user").value;
+  let p = document.getElementById("pass").value;
+
+  if(u == "admin" && p == "1234") {
+    alert("Bienvenido");
+  } else {
+    alert("Error");
+  }
+}
+</script>
+
+</body>
+</html>
